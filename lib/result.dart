@@ -22,10 +22,7 @@ class Result extends StatelessWidget {
           style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(Colors.blue)), 
         ),
-        ElevatedButton(onPressed: null, child:Text("This is for git purposes"),
-        style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all(Colors.pink)
-        ),)
+        
       ]),
     );
   }
