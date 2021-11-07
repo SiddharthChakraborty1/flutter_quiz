@@ -20,8 +20,12 @@ class Result extends StatelessWidget {
           onPressed: resetQuiz,
           child: Text("Reset Quiz"),
           style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.all(Colors.blue)),
-        )
+              backgroundColor: MaterialStateProperty.all(Colors.blue)), 
+        ),
+        ElevatedButton(onPressed: null, child:Text("This is for git purposes"),
+        style: ButtonStyle(
+          backgroundColor: MaterialStateProperty.all(Colors.pink)
+        ),)
       ]),
     );
   }
